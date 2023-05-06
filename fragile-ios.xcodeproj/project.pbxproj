@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB8305682A0612E400E7879A /* fragile_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8305672A0612E400E7879A /* fragile_iosApp.swift */; };
+		FB83056A2A0612E400E7879A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8305692A0612E400E7879A /* ContentView.swift */; };
+		FB83056C2A0612E400E7879A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB83056B2A0612E400E7879A /* Assets.xcassets */; };
+		FB83056F2A0612E400E7879A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB83056E2A0612E400E7879A /* Preview Assets.xcassets */; };
+		FB8305712A0612E400E7879A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8305702A0612E400E7879A /* Persistence.swift */; };
+		FB8305742A0612E400E7879A /* fragile_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB8305722A0612E400E7879A /* fragile_ios.xcdatamodeld */; };
+		FB83057E2A0612E500E7879A /* fragile_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB83057D2A0612E500E7879A /* fragile_iosTests.swift */; };
+		FB8305882A0612E500E7879A /* fragile_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8305872A0612E500E7879A /* fragile_iosUITests.swift */; };
+		FB83058A2A0612E500E7879A /* fragile_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8305892A0612E500E7879A /* fragile_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB83057A2A0612E500E7879A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB83055C2A0612E400E7879A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8305632A0612E400E7879A;
+			remoteInfo = "fragile-ios";
+		};
+		FB8305842A0612E500E7879A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB83055C2A0612E400E7879A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8305632A0612E400E7879A;
+			remoteInfo = "fragile-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB8305642A0612E400E7879A /* fragile-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fragile-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8305672A0612E400E7879A /* fragile_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fragile_iosApp.swift; sourceTree = "<group>"; };
+		FB8305692A0612E400E7879A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB83056B2A0612E400E7879A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB83056E2A0612E400E7879A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB8305702A0612E400E7879A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FB8305732A0612E400E7879A /* fragile_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fragile_ios.xcdatamodel; sourceTree = "<group>"; };
+		FB8305792A0612E500E7879A /* fragile-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fragile-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB83057D2A0612E500E7879A /* fragile_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fragile_iosTests.swift; sourceTree = "<group>"; };
+		FB8305832A0612E500E7879A /* fragile-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fragile-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8305872A0612E500E7879A /* fragile_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fragile_iosUITests.swift; sourceTree = "<group>"; };
+		FB8305892A0612E500E7879A /* fragile_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fragile_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8305612A0612E400E7879A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8305762A0612E500E7879A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8305802A0612E500E7879A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB83055B2A0612E400E7879A = {
+			isa = PBXGroup;
+			children = (
+				FB8305662A0612E400E7879A /* fragile-ios */,
+				FB83057C2A0612E500E7879A /* fragile-iosTests */,
+				FB8305862A0612E500E7879A /* fragile-iosUITests */,
+				FB8305652A0612E400E7879A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8305652A0612E400E7879A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8305642A0612E400E7879A /* fragile-ios.app */,
+				FB8305792A0612E500E7879A /* fragile-iosTests.xctest */,
+				FB8305832A0612E500E7879A /* fragile-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8305662A0612E400E7879A /* fragile-ios */ = {
+			isa = PBXGroup;
+			children = (
+				FB8305672A0612E400E7879A /* fragile_iosApp.swift */,
+				FB8305692A0612E400E7879A /* ContentView.swift */,
+				FB83056B2A0612E400E7879A /* Assets.xcassets */,
+				FB8305702A0612E400E7879A /* Persistence.swift */,
+				FB8305722A0612E400E7879A /* fragile_ios.xcdatamodeld */,
+				FB83056D2A0612E400E7879A /* Preview Content */,
+			);
+			path = "fragile-ios";
+			sourceTree = "<group>";
+		};
+		FB83056D2A0612E400E7879A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB83056E2A0612E400E7879A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB83057C2A0612E500E7879A /* fragile-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB83057D2A0612E500E7879A /* fragile_iosTests.swift */,
+			);
+			path = "fragile-iosTests";
+			sourceTree = "<group>";
+		};
+		FB8305862A0612E500E7879A /* fragile-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB8305872A0612E500E7879A /* fragile_iosUITests.swift */,
+				FB8305892A0612E500E7879A /* fragile_iosUITestsLaunchTests.swift */,
+			);
+			path = "fragile-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8305632A0612E400E7879A /* fragile-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB83058D2A0612E500E7879A /* Build configuration list for PBXNativeTarget "fragile-ios" */;
+			buildPhases = (
+				FB8305602A0612E400E7879A /* Sources */,
+				FB8305612A0612E400E7879A /* Frameworks */,
+				FB8305622A0612E400E7879A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fragile-ios";
+			productName = "fragile-ios";
+			productReference = FB8305642A0612E400E7879A /* fragile-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB8305782A0612E500E7879A /* fragile-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8305902A0612E500E7879A /* Build configuration list for PBXNativeTarget "fragile-iosTests" */;
+			buildPhases = (
+				FB8305752A0612E500E7879A /* Sources */,
+				FB8305762A0612E500E7879A /* Frameworks */,
+				FB8305772A0612E500E7879A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB83057B2A0612E500E7879A /* PBXTargetDependency */,
+			);
+			name = "fragile-iosTests";
+			productName = "fragile-iosTests";
+			productReference = FB8305792A0612E500E7879A /* fragile-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB8305822A0612E500E7879A /* fragile-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8305932A0612E500E7879A /* Build configuration list for PBXNativeTarget "fragile-iosUITests" */;
+			buildPhases = (
+				FB83057F2A0612E500E7879A /* Sources */,
+				FB8305802A0612E500E7879A /* Frameworks */,
+				FB8305812A0612E500E7879A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8305852A0612E500E7879A /* PBXTargetDependency */,
+			);
+			name = "fragile-iosUITests";
+			productName = "fragile-iosUITests";
+			productReference = FB8305832A0612E500E7879A /* fragile-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB83055C2A0612E400E7879A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FB8305632A0612E400E7879A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FB8305782A0612E500E7879A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FB8305632A0612E400E7879A;
+					};
+					FB8305822A0612E500E7879A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FB8305632A0612E400E7879A;
+					};
+				};
+			};
+			buildConfigurationList = FB83055F2A0612E400E7879A /* Build configuration list for PBXProject "fragile-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB83055B2A0612E400E7879A;
+			productRefGroup = FB8305652A0612E400E7879A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8305632A0612E400E7879A /* fragile-ios */,
+				FB8305782A0612E500E7879A /* fragile-iosTests */,
+				FB8305822A0612E500E7879A /* fragile-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8305622A0612E400E7879A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB83056F2A0612E400E7879A /* Preview Assets.xcassets in Resources */,
+				FB83056C2A0612E400E7879A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8305772A0612E500E7879A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8305812A0612E500E7879A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8305602A0612E400E7879A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8305742A0612E400E7879A /* fragile_ios.xcdatamodeld in Sources */,
+				FB8305712A0612E400E7879A /* Persistence.swift in Sources */,
+				FB83056A2A0612E400E7879A /* ContentView.swift in Sources */,
+				FB8305682A0612E400E7879A /* fragile_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8305752A0612E500E7879A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB83057E2A0612E500E7879A /* fragile_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB83057F2A0612E500E7879A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8305882A0612E500E7879A /* fragile_iosUITests.swift in Sources */,
+				FB83058A2A0612E500E7879A /* fragile_iosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB83057B2A0612E500E7879A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8305632A0612E400E7879A /* fragile-ios */;
+			targetProxy = FB83057A2A0612E500E7879A /* PBXContainerItemProxy */;
+		};
+		FB8305852A0612E500E7879A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8305632A0612E400E7879A /* fragile-ios */;
+			targetProxy = FB8305842A0612E500E7879A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB83058B2A0612E500E7879A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB83058C2A0612E500E7879A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB83058E2A0612E500E7879A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fragile-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 9SU9HR2NF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.fragile-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB83058F2A0612E500E7879A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fragile-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 9SU9HR2NF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.fragile-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB8305912A0612E500E7879A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9SU9HR2NF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.fragile-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fragile-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fragile-ios";
+			};
+			name = Debug;
+		};
+		FB8305922A0612E500E7879A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9SU9HR2NF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.fragile-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fragile-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fragile-ios";
+			};
+			name = Release;
+		};
+		FB8305942A0612E500E7879A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9SU9HR2NF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.fragile-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fragile-ios";
+			};
+			name = Debug;
+		};
+		FB8305952A0612E500E7879A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9SU9HR2NF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.fragile-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fragile-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB83055F2A0612E400E7879A /* Build configuration list for PBXProject "fragile-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB83058B2A0612E500E7879A /* Debug */,
+				FB83058C2A0612E500E7879A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB83058D2A0612E500E7879A /* Build configuration list for PBXNativeTarget "fragile-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB83058E2A0612E500E7879A /* Debug */,
+				FB83058F2A0612E500E7879A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8305902A0612E500E7879A /* Build configuration list for PBXNativeTarget "fragile-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8305912A0612E500E7879A /* Debug */,
+				FB8305922A0612E500E7879A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8305932A0612E500E7879A /* Build configuration list for PBXNativeTarget "fragile-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8305942A0612E500E7879A /* Debug */,
+				FB8305952A0612E500E7879A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB8305722A0612E400E7879A /* fragile_ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB8305732A0612E400E7879A /* fragile_ios.xcdatamodel */,
+			);
+			currentVersion = FB8305732A0612E400E7879A /* fragile_ios.xcdatamodel */;
+			path = fragile_ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB83055C2A0612E400E7879A /* Project object */;
+}
